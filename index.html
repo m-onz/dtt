@@ -10,181 +10,193 @@
     <link rel="stylesheet" href="/css/tachyons.css">
   </head>
   <body>
-
-    <style>
-      * {
-        font-family: 'Arial'!important;
-      }
-      body {
-        background: white;
-      }
-      a.button {
-        border: none;
-        background: rgba(11, 25, 59, 0.9);
-      }
-    </style>
-
-    <header class="sans-serif">
-    <div class="cover bg-left bg-center-l" style="background: url(/images/home2.jpg)">
-      <div class="bg-black-80 pb5 pb6-m pb7-l">
-        <nav class="dt w-100 mw8 center">
-          <div class="dtc w2 v-mid pa3">
-            <p class="lh-copy mt2 f6 white">DRONE TRACKING TECHNOLOGIES</p>
-          </div>
-          <div class="dtc v-mid tr pa3">
-            <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/" >Home</a>
-            <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/products.html" >Products</a>
-            <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/services.html" >Services</a>
-            <a class="f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" href="/about.html" >About</a>
-            <a class="f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba" href="/contact.html" >Contact</a>
-          </div>
-        </nav>
-        <div class="tc-l mt4 mt5-m mt6-l ph3">
-          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">DRONE DETECTION</h1>
-          <h2 class="fw1 f3 white-80 mt3 mb4">Advanced optical and audio drone detection systems.</h2>
-          <a class="f6 no-underline grow dib v-mid white ba b--blue ph3 pv2 mb3" href="/contact.html">Get a demo</a>
-          <span class="dib v-mid ph3 white-70 mb3">or</span>
-          <a class="f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3" href="/products.html">See products</a>
-        </div>
-      </div>
-    </div>
+  <style>
+    * {
+      font-family: 'Arial'!important;
+    }
+    body {
+      background: white;
+    }
+    a.button {
+      border: none;
+      background: rgba(11, 25, 59, 0.9);
+    }
+    .instock {
+      width: 68px;
+      background: #423b3b;
+      padding: 0.6em;
+      color: white;
+      font-weight: 800;
+    }
+    .power-button {
+      padding: 1.3em;
+      background: #222;
+      color: white;
+      font-size: 1.1em;
+      margin-left: 1.4em;
+    }
+  </style>
+  <header class="fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l" style="background:whitesmoke;box-shadow: 0 0 1px rgba(0,0,0,0.5);z-index:99999;">
+    <nav class="f6 fw6 ttu tracked">
+      <a class="link dim white dib mr3" href="/index.html" title="Home" style="color: #6ecbc7; font-weight: 800;">DRONE TRACKING TECHNOLOGIES</a>
+      <a class="link dim white dib fr" href="/contact.html" style="color: #bfbfbf;" title="Contact">Contact</a>
+      <a class="link dim white dib mr3 fr" href="/about.html" style="color: #bfbfbf;" title="Store">About</a>
+      <a class="link dim white dib mr3 fr" href="/products.html" style="color: #bfbfbf;" title="About">Products</a>
+    </nav>
   </header>
-
-  <article class="mw5 mw7-ns center bg-light-gray pa3 pa5-ns">
-    <h4 class="f6">Optical drone detection demonstration</h4>
-    <div class="aspect-ratio aspect-ratio--16x9 mb4">
-    <div class="aspect-ratio--object cover"></div>
-      <iframe src="https://player.vimeo.com/video/316920018" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <article class="vh-100 dt w-100 bg-dark-pink" style="background: url(/images/mesh.png); background-size: cover;">
+    <div class="dtc v-mid tc white ph3 ph4-l">
+      <h1 class="f6 f2-m f-subheadline-l fw6 tc">TELESCOPE</h1>
+      <h2 class="mt0">PORTABLE DRONE DETECTION DEVICE</h2>
+    </div>
+  </article>
+  <article class="cf ph3 ph5-ns pv5 semi-white" style="background:#bcbcbc;">
+    <header class="fn fl-ns w-50-ns pr4-ns">
+      <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
+        THE ART OF DRONE DETECTION
+      </h1>
+      <h2 class="f3 mid-gray lh-title">
+        AUDIO, RF AND OPTICAL
+      </h2>
+      <p class="f5 lh-copy measure mt0-ns">
+        Drone tracking technologies LTD are the makers of the TELESCOPE drone detection device.
+         Each TELESCOPE device combines radio, audio and optical drone detection and is configurable via an on board
+          wifi hotspot which also serves the realtime notifications.
+      </p>
+    </header>
+    <div class="fn fl-ns w-50-ns">
+      <img src="/images/geom.png" />
+      <br /><br /><br />
     </div>
   </article>
 
-    <article class="mw5 mw7-ns center bg-light-gray pa3 pa5-ns">
-      <h4 class="f6">Acoustic drone detection demonstration</h4>
-      <div class="aspect-ratio aspect-ratio--16x9 mb4">
-      <div class="aspect-ratio--object cover"></div>
-        <iframe src="https://player.vimeo.com/video/315626090" width="100%" height="400" frameborder="0"webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      </div>
-    </article>
+    <main class="w-100 cf helvetica dark-gray bg-white pa3 pa4-m pa5-l mw9 center" style="background:white;">
 
-    <main class="w-100 cf helvetica dark-gray bg-white pa3 pa4-m pa5-l mw9 center" style="background: url(/images/home.jpg)">
-        <div class="fl w-50 w-50 w-25-l pl2 pl0-l pr2-m pr4-l mb3 mb4-l">
-          <div class="cover pv5 pv6-m pv7-l"> </div>
-        </div>
-        <div class="fl w-100 w-50-l pr2-l pl2-ns mb4 mb0-l mb4 outline">
-          <div class="pa4">
-            <p class="lh-copy mt2 mt3-m mt5-l f6">
-              <span class="db-ns f6 fw7 lh-solid mb3 mb0-m mb4-l">OPTICAL DRONE DETECTION</span>
-              <span class="fw9 f6 f1-l db lh-title mb3 mb4-l">Identity and track drones in your airspace.</span>
-              <a href="/products.html" class="white">FIND OUT MORE</a> <br/>
-            </p>
-          </div>
-        </div>
-        <div class="cf">
-          <div class="fl w-100 w-25-l pl3-l mb3 mb4-l">
-              <div class="cover pv5 pv6-m pv7-l"> </div>
-          </div>
-        </div>
+        <h1 class="f6 f2-m f-subheadline-l fw6 tc black">PRODUCTS</h1>
+        <ul class="list pl0 mt0 measure center">
+        <li
+          class="flex items-center lh-copy pa3 ph0-l bb b--black-10">
+            <img class="w2 h2 w3-ns h3-ns" src="/images/cube.jpg" />
+            <div class="pl3 flex-auto">
+              <h3 class="f6 db black">TELESCOPE</h3>
+            </div>
+            <div>
+              <span class="f6 db black-70">DRONE DETECTOR</span>
+            </div>
+        </li>
+        <li
+          class="flex items-center lh-copy pa3 ph0-l bb b--black-10">
+            <img class="w2 h2 w3-ns h3-ns" src="/images/cube.jpg" />
+            <div class="pl3 flex-auto">
+              <span class="f6 db black">OMNI MIC</span>
+            </div>
+            <div>
+              <span class="f6 db black-70">ATTACHMENT</span>
+            </div>
+        </li>
+        <li
+          class="flex items-center lh-copy pa3 ph0-l bb b--black-10">
+            <img class="w2 h2 w3-ns h3-ns" src="/images/cube.jpg" />
+            <div class="pl3 flex-auto">
+              <span class="f6 db black">SHOTGUN MICROPHONE</span>
+            </div>
+            <div>
+              <span class="f6 db black-70">ATTACHMENT</span>
+            </div>
+        </li>
+        <li>
+          <br /><br /><br />
+          <a href="/products.html" class="f6 link blue hover-white power-button">GO TO PRODUCTS</a>
+        </li>
+      </ul>
+
     </main>
 
     <article class="cf ph3 ph5-ns pv5 semi-white">
       <header class="fn fl-ns w-50-ns pr4-ns">
-        <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2">
-          DRONE DETECTION
+        <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2" style="color: #1c908b;">
+          DETECTION AND ALERTING
         </h1>
         <h2 class="f3 mid-gray lh-title">
-          ADVANCED DETECTION AGAINST POLYMORPHIC THREATS
+          Realtime information on satellite activity, threat levels, alerts & logging history for forensic review.
         </h2>
         <time class="f6 ttu tracked gray"></time>
       </header>
-      <div class="fn fl-ns w-50-ns">
-        <p class="f5 lh-copy measure mt0-ns">
-          * Each node uses 4 cameras for a full 360 degree field of vision<br /><br />
-          * Detects drones using computer vision and machine learning (Ai)<br /><br />
-          * Plots the location of the drone on a map<br /><br />
-          * Real time alerts and web interface<br /><br />
-          * Portable and fixed systems available.<br /><br />
-          * No internet connection required to operate.<br /><br />
-        </p>
+      <div class="fn fl-ns w-50-ns tc">
+        <img src="/images/glass.jpg" />
       </div>
+      <br /><br /><br />
     </article>
 
-    <section class="mw7 center" style="background: white;">
-      <article class="bt bb b--black-10">
-        <div class="db pv4 ph3 ph0-l no-underline black">
-          <div class="flex flex-column flex-row-ns">
-            <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-              <img src="/images/p1.png" class="db" alt="Photo of a dimly lit room with a computer interface terminal.">
-            </div>
-            <div class="w-100 w-60-ns pl3-ns">
-              <h1 class="f3 fw1 baskerville mt0 lh-title">Research</h1>
-              <p class="f6 f5-l lh-copy">
-                We have a strong research lead team focused on improving
-                 the detection algorithms and reducing false positives.
-              </p>
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="bb b--black-10">
-        <div class="db pv4 ph3 ph0-l no-underline black">
-          <div class="flex flex-column flex-row-ns">
-            <div class="w-100 w-60-ns pl3-ns">
-              <h1 class="f3 fw1 baskerville mt0 lh-title">Alerts</h1>
-              <p class="f6 f5-l lh-copy">
-                Get alerted and more importantly get the information
-                 you need to locate and find rogue drone operators.
-              </p>
-            </div>
-            <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-              <img src="/images/p2.png" class="db" alt="Photo of a warehouse with stacked shelves.">
-            </div>
-          </div>
-        </div>
-      </article>
-      <article class="bb b--black-10">
-        <a class="db pv4 ph3 ph0-l no-underline black dim" href="/products.html">
-          <div class="flex flex-column flex-row-ns">
-            <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-              <img src="/images/p3.png" class="db" alt="Photo of a whale's tale coming crashing out of the water.">
-            </div>
-            <div class="w-100 w-60-ns pl3-ns">
-              <h1 class="f3 fw1 baskerville mt0 lh-title">Products</h1>
-              <p class="f6 f5-l lh-copy">
-                Buy a fixed or portable optical drone detection system today.
-              </p>
-              <p class="f6 lh-copy mv0">P/F Series</p>
-            </div>
-          </div>
-        </a>
-      </article>
-    </section>
+    <article class="cf ph3 ph5-ns pv5 semi-white">
+      <div class="fn fl-ns w-50-ns tc">
+        <img src="/images/darkmesh.jpg" />
+      </div>
+      <header class="fn fl-ns w-50-ns pr4-ns">
+        <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2" style="color: #1c908b;">
+          PORTABLE OR FIXED
+        </h1>
+        <h2 class="f3 mid-gray lh-title">
+          The TELESCOPE drone detection device is less than 2 kilograms. <br /><br />
+          Run the TELESCOPE on battery power or fix it somewhere permanently.
+        </h2>
+        <time class="f6 ttu tracked gray"></time>
+      </header>
+      <br /><br /><br />
+    </article>
 
-    <footer class="pa4 pa5-l black-70 bt" style="background: rgba(11, 25, 59, 0.9);border-top: 74px solid #f2f2f2;">
+    <article class="cf ph3 ph5-ns pv5 semi-white">
+      <header class="fn fl-ns w-50-ns pr4-ns">
+        <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2" style="color: #1c908b;">
+          OPEN INTEGRATION
+        </h1>
+        <h2 class="f3 mid-gray lh-title">
+          Connect and configure the TELESCOPE via its on board web interface. See
+           video feeds, audio detections and radio detection reports in real time.
+        </h2>
+        <time class="f6 ttu tracked gray"></time>
+      </header>
+      <div class="fn fl-ns w-50-ns tc">
+        <img src="/images/plug.jpg" />
+      </div>
+      <br /><br /><br />
+    </article>
+
+    <article class="cf ph3 ph5-ns pv5 semi-white">
+      <div class="fn fl-ns w-50-ns tc">
+        <img src="/images/wave.jpg" />
+      </div>
+      <header class="fn fl-ns w-50-ns pr4-ns">
+        <h1 class="f2 lh-title fw9 mb3 mt0 pt3 bt bw2" style="color: #1c908b;">
+          ROBUST DETECTION
+        </h1>
+        <h2 class="f3 mid-gray lh-title">
+          Robust realtime detection of drone threats using bespoke machine learning algorithms.
+        </h2>
+        <time class="f6 ttu tracked gray"></time>
+      </header>
+      <br /><br /><br />
+    </article>
+
+    <footer class="pa4 pa5-l black-70 bt" style="background: rgba(59, 114, 120, 0.9);border-top: 74px solid #f2f2f2;">
       <div class="mb4-l cf">
         <h1 class="fl w-100 pv0 f6 fw6 ttu tracked mb4 white">DRONE TRACKING TECHNOLOGIES</h1>
         <article class="fl w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pr2 pr0-ns">
           <a class="f6 db fw6 pv3 white link dim" href="/index.html">
             HOME
           </a>
-          <a class="f6 db fw6 pv3 white link dim" href="/about.html">
-            ABOUT
-          </a>
           <a class="f6 db fw6 pv3 white link dim" href="/products.html">
             PRODUCTS
-          </a>
-        </article>
-        <article class="fl w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pl2 pl0-ns">
-          <a class="f6 db fw6 pv3 white link dim" href="/services.html">
-            SERVICES
           </a>
           <a class="f6 db fw6 pv3 white link dim" href="/contact.html">
             CONTACT
           </a>
+          <a class="f6 db fw6 pv3 white link dim" href="/about.html">
+            ABOUT
+          </a>
           <a class="f6 db fw6 pv3 white link dim" href="/privacy.html">
             PRIVACY
           </a>
-        </article>
-        <article class="fl w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pr2 pr0-ns">
         </article>
         <article class="fl w-50 dib-ns w-auto-ns mb4 pl2 pl0-ns">
         </article>
@@ -194,9 +206,6 @@
           <p class="f7 white dib pr3 mb3">
             Copyright © DRONE TRACKING TECHNOLOGIES LTD 2019
           </p>
-        </div>
-        <div class="db dtc-ns black-70 tc tr-ns v-mid">
-          <a href="https://dronetrackingtechnologies.com" class="link dim dib white">DRONE TRACKING TECHNOLOGIES</a>
         </div>
       </div>
       <div class="db dn-ns">
