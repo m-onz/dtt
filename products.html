@@ -27,6 +27,13 @@
         text-decoration: underline;
         font-weight: 800;
       }
+      .gradient {
+background: #35ffe4; /* Old browsers */
+background: -moz-linear-gradient(left, #35ffe4 0%, #db6753 35%, #dbf3fc 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #35ffe4 0%,#db6753 35%,#dbf3fc 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #35ffe4 0%,#db6753 35%,#dbf3fc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35ffe4', endColorstr='#dbf3fc',GradientType=1 ); /* IE6-9 */
+      }
     </style>
 
     <header class="fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l" style="background:whitesmoke;box-shadow: 0 0 1px rgba(0,0,0,0.5);z-index:99999;">
@@ -38,7 +45,7 @@
       </nav>
     </header>
 
-    <article class="vh-100 dt w-100 bg-dark-pink" style="background: #222;">
+    <article class="vh-100 dt w-100 gradient">
       <div class="dtc v-mid tc white ph3 ph4-l">
         <h1 class="f6 f2-m f-subheadline-l fw6 tc" style="color:gray;">TELESCOPE</h1>
         <h2 class="mt0">PORTABLE DRONE DETECTION DEVICE</h2>
